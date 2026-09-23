@@ -207,7 +207,7 @@ is validated for strength, stored with `select: false`, and never returned by an
 ![Registration](screenshots/register.png)
 
 ### Dashboard – Student List
-![Dashboard](screenshots/stundent_managment.png)
+![Dashboard](screenshots/student_managment.png)
 
 ### Raw API Response (Layer-1 encrypted, before browser decrypts)
 ![Raw API Response](screenshots/encrypt_data.png)
