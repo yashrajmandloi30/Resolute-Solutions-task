@@ -200,4 +200,20 @@ is validated for strength, stored with `select: false`, and never returned by an
 
 ## Screenshots
 
-_Add screenshots here:_ `docs/login.png`, `docs/register.png`, `docs/dashboard.png`, `docs/raw-response.png`
+### Login
+![Login](screenshots/login.png)
+
+### Student Registration
+![Registration](screenshots/register.png)
+
+### Dashboard – Student List
+![Dashboard](screenshots/stundet_managment.png)
+
+### Raw API Response (Layer-1 encrypted, before browser decrypts)
+![Raw API Response](screenshots/encrypt_data.png)
+
+### Edit Student
+![Edit Student](screenshots/edit_student.png)
+
+### Delete Confirmation
+![Delete Confirmation](screenshots/add_student.png)
