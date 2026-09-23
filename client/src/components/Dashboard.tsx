@@ -84,7 +84,6 @@ export default function Dashboard({ userId, onLogout }: Props) {
       <header className="topbar">
         <div>
           <h1>Student Management</h1>
-          <p className="muted">Hi {me?.fullName ?? 'there'} 👋 — data is 2-level encrypted end to end</p>
         </div>
         <div className="topbar-actions">
           <button className="btn primary" onClick={() => setPanel({ mode: 'create' })}>

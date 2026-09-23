@@ -10,10 +10,7 @@ import { RegisterInput, UpdateInput, LoginInput } from '../validators/studentVal
 
 const SALT_ROUNDS = 10;
 
-/**
- * Removes ONLY the server layer (Layer 2).
- * Values in the response are still Layer-1 (client) ciphertext.
- */
+
 function toClientPayload(doc: StudentRecord) {
   const payload: Record<string, unknown> = {
     id: doc._id.toString(),
@@ -63,7 +60,7 @@ export const registerStudent = asyncHandler(async (req: Request, res: Response) 
   });
 });
 
-// POST /api/login
+
 export const loginStudent = asyncHandler(async (req: Request, res: Response) => {
   const { emailHash, password } = req.body as LoginInput;
 
