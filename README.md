@@ -198,6 +198,5 @@ is validated for strength, stored with `select: false`, and never returned by an
 - Any logged-in student can manage all students (assignment treats the dashboard as an admin view).
   Role-based access (admin / student) would be the next step.
 
-## Screenshots
 
-_Add screenshots here:_ `docs/login.png`, `docs/register.png`, `docs/dashboard.png`, `docs/raw-response.png`
+
