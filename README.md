@@ -207,7 +207,7 @@ is validated for strength, stored with `select: false`, and never returned by an
 ![Registration](screenshots/register.png)
 
 ### Dashboard – Student List
-![Dashboard](screenshots/stundet_managment.png)
+![Dashboard](screenshots/stundent_managment.png)
 
 ### Raw API Response (Layer-1 encrypted, before browser decrypts)
 ![Raw API Response](screenshots/encrypt_data.png)
@@ -215,7 +215,7 @@ is validated for strength, stored with `select: false`, and never returned by an
 ### Edit Student
 ![Edit Student](screenshots/edit_student.png)
 
-### Delete Confirmation
+### Add Student
 ![Delete Confirmation](screenshots/add_student.png)
 =======
 
